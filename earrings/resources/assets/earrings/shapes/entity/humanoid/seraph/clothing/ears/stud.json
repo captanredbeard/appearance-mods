@@ -1,0 +1,64 @@
+{
+	"editor": {
+		"backDropShape": "C:/Users/Daniel/source/repos/Vintage Story/appearance-mods/earrings/assets/earrings/shapes/entity/humanoid/seraph/seraphskinparts/ears/fawn",
+		"collapsedPaths": "",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"metal": [16, 16]
+	},
+	"textures": {
+		"metal": "game:block/metal/ingot/gold"
+	},
+	"elements": [
+		{
+			"name": "cubeL",
+			"from": [8, 0, 8.06],
+			"to": [8.2, 0.2, 8.26],
+			"rotationOrigin": [8, 0, 8],
+			"faces": {
+				"north": {"texture": "#metal", "uv": [1.8, 1.8, 2, 2], "autoUv": false, "snapUv": false},
+				"east": {"texture": "#metal", "uv": [1.8, 1.8, 2, 2], "autoUv": false, "snapUv": false},
+				"south": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "autoUv": false, "snapUv": false},
+				"west": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "autoUv": false, "snapUv": false},
+				"up": {"texture": "#metal", "uv": [0, 0, 0.2, 0.2], "autoUv": false, "snapUv": false},
+				"down": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "rotation": 180, "autoUv": false, "snapUv": false}
+			},
+			"stepParentName": "ears-earAttachL"
+		},
+		{
+			"name": "cubeT",
+			"from": [8, 0, 8.06],
+			"to": [12.2, 4.2, 12.26],
+			"rotationOrigin": [8, 0, 8],
+			"faces": {
+				"north": {"texture": "#metal", "uv": [1.8, 1.8, 2, 2], "autoUv": false, "snapUv": false},
+				"east": {"texture": "#metal", "uv": [1.8, 1.8, 2, 2], "autoUv": false, "snapUv": false},
+				"south": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "autoUv": false, "snapUv": false},
+				"west": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "autoUv": false, "snapUv": false},
+				"up": {"texture": "#metal", "uv": [0, 0, 0.2, 0.2], "autoUv": false, "snapUv": false},
+				"down": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "rotation": 180, "autoUv": false, "snapUv": false}
+			},
+			"stepParentName": "earrings:ears-earAttachL"
+		},
+		{
+			"name": "cubeR",
+			"from": [8, 0, 7.94],
+			"to": [8.2, 0.2, 8.14],
+			"rotationOrigin": [8, 0, 8],
+			"faces": {
+				"north": {"texture": "#metal", "uv": [1.8, 1.8, 2, 2], "autoUv": false, "snapUv": false},
+				"east": {"texture": "#metal", "uv": [1.8, 1.8, 2, 2], "autoUv": false, "snapUv": false},
+				"south": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "autoUv": false, "snapUv": false},
+				"west": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "autoUv": false, "snapUv": false},
+				"up": {"texture": "#metal", "uv": [0, 0, 0.2, 0.2], "autoUv": false, "snapUv": false},
+				"down": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "rotation": 180, "autoUv": false, "snapUv": false}
+			},
+			"stepParentName": "earAttachR"
+		}
+	],
+	"animations": []
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/skinnableParts/5",
+    "value": {
+      "code": "ears",
+      "type": "shape",
+      "shapeTemplate": {
+        "base": "entity/humanoid/seraphskinparts/ears/{code}"
+      },
+	    "targetSkinParts": ["baseskin"],
+      "variants": [
+        {
+          "code": "none"
+        },
+        {
+          "code": "pointy"
+        },
+        {
+          "code": "fawn"
+        }
+        /*
+        {
+          "code": "round"
+        },
+        */
+        /*
+        {
+          "code": "owl"
+        },
+        {
+          "code": "cup"
+        }
+        */
+      ]
+    },
+    "file": "game:entities/humanoid/player.json"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "enabled": false,
+    "file": "game:shapes/entity/humanoid/seraph-faceless.json",
+    "path": "/animations",
+    "op": "addmerge",
+    "value": [
+      {
+        "name": "EarWag",
+        "code": "earwag",
+        "quantityframes": 18,
+        "onActivityStopped": "EaseOut",
+        "onAnimationEnd": "Hold",
+        "keyframes": []
+      }
+    ]
+  }
+]

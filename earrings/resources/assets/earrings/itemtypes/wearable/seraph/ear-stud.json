@@ -1,0 +1,84 @@
+{
+	"code": "clothes",
+	"tags": [ "earring", "slot-earrings-earring" ],
+	"variantgroups": [
+		{
+			"code": "category",
+			"states": [ "earring" ]
+		},
+		{
+			"code": "type",
+			"states": [
+				"stud"
+			]
+		},
+		{
+			"code": "material",
+			"states": [
+				"gold",
+				"silver",
+				"copper"
+			]
+		}
+
+	],
+	"shapeByType": {
+		"*": { "base": "entity/humanoid/seraph/clothing/ears/stud" }
+	},
+	"storageFlags": 128,
+	"behaviors": [
+		{ "name": "Wearable" }
+	],
+	"attributes": {
+
+		"wearableAttachment": false,
+		"displayableByType": {
+			"*": {
+				"shelf": {
+					"size": {
+						"width": 4,
+						"height": 2,
+						"length": 4
+					},
+					"transform": {
+						"translation": {
+							"x": 0.05,
+							"y": -1.745,
+							"z": 0
+						},
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 2
+						},
+						"scale": 0.95
+					},
+					"randYRotAngle": 3
+				}
+			}
+		}
+	},
+	"textures": {
+		"metal": { "base": "game:block/metal/ingot/{material}" },
+		"seraph": { "base": "game:block/transparent" }
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"clothing": [ "*" ],
+		"earrings": [ "*" ]
+	},
+	"guiTransform": {
+		"rotation": {
+			"x": 112,
+			"y": -48,
+			"z": -74
+		},
+		"origin": {
+			"x": 0.6,
+			"y": 0.8,
+			"z": 0.5
+		},
+		"scale": 5.16
+	}
+}

@@ -1,0 +1,98 @@
+{
+	"editor": {
+		"backDropShape": "C:/Users/Daniel/source/repos/Vintage Story/appearance-mods/earrings/assets/earrings/shapes/entity/humanoid/seraph/seraphskinparts/ears/fawn",
+		"collapsedPaths": "",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"metal": [16, 16],
+		"copper.png": [16, 16]
+	},
+	"textures": {
+		"metal": "game:block/metal/ingot/gold"
+	},
+	"elements": [
+		{
+			"name": "bone",
+			"from": [16.175, 0.1, 16.57],
+			"to": [16.175, 0.1, 16.57],
+			"rotationOrigin": [16.175, 0.1, 16.57],
+			"children": [
+				{
+					"name": "cubeL",
+					"from": [-0.175, -0.1, -0.37],
+					"to": [-0.025, 0.1, -0.17],
+					"rotationOrigin": [-0.1, 0, -0.27],
+					"faces": {
+						"north": {"texture": "#metal", "uv": [1.8, 1.8, 2, 2], "autoUv": false, "snapUv": false},
+						"east": {"texture": "#metal", "uv": [1.8, 1.8, 2, 2], "autoUv": false, "snapUv": false},
+						"south": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "autoUv": false, "snapUv": false},
+						"west": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "autoUv": false, "snapUv": false},
+						"up": {"texture": "#metal", "uv": [0, 0, 0.2, 0.2], "autoUv": false, "snapUv": false},
+						"down": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "autoUv": false, "snapUv": false}
+					}
+				},
+				{
+					"name": "cubeR",
+					"from": [-0.175, -0.1, -0.97],
+					"to": [-0.025, 0.1, -0.77],
+					"rotationOrigin": [-0.1, 0, -0.87],
+					"faces": {
+						"north": {"texture": "#metal", "uv": [1.8, 1.8, 2, 2], "autoUv": false, "snapUv": false},
+						"east": {"texture": "#metal", "uv": [1.8, 1.8, 2, 2], "autoUv": false, "snapUv": false},
+						"south": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "autoUv": false, "snapUv": false},
+						"west": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "autoUv": false, "snapUv": false},
+						"up": {"texture": "#metal", "uv": [0, 0, 0.2, 0.2], "autoUv": false, "snapUv": false},
+						"down": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "autoUv": false, "snapUv": false}
+					}
+				},
+				{
+					"name": "tipR",
+					"from": [-0.025, -0.03, -0.9],
+					"to": [0.225, 0.03, -0.84],
+					"rotationOrigin": [0.025, -0.1, -0.91],
+					"faces": {
+						"north": {"texture": "#metal", "uv": [1.8, 1.8, 2, 2], "autoUv": false, "snapUv": false},
+						"east": {"texture": "#metal", "uv": [1.8, 1.8, 2, 2], "autoUv": false, "snapUv": false},
+						"south": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "autoUv": false, "snapUv": false},
+						"west": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "autoUv": false, "snapUv": false},
+						"up": {"texture": "#metal", "uv": [0, 0, 0.2, 0.2], "autoUv": false, "snapUv": false},
+						"down": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "autoUv": false, "snapUv": false}
+					}
+				},
+				{
+					"name": "tipL",
+					"from": [-0.025, -0.03, -0.3],
+					"to": [0.225, 0.03, -0.24],
+					"rotationOrigin": [0.025, -0.1, -0.43],
+					"faces": {
+						"north": {"texture": "#metal", "uv": [1.8, 1.8, 2, 2], "autoUv": false, "snapUv": false},
+						"east": {"texture": "#metal", "uv": [1.8, 1.8, 2, 2], "autoUv": false, "snapUv": false},
+						"south": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "autoUv": false, "snapUv": false},
+						"west": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "autoUv": false, "snapUv": false},
+						"up": {"texture": "#metal", "uv": [0, 0, 0.2, 0.2], "autoUv": false, "snapUv": false},
+						"down": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "autoUv": false, "snapUv": false}
+					}
+				}
+			]
+		},
+		{
+			"name": "cubeT",
+			"from": [16, 0, 15.6],
+			"to": [20.15, 4.2, 19.8],
+			"rotationOrigin": [16.075, 0.1, 15.7],
+			"faces": {
+				"north": {"texture": "#metal", "uv": [1.8, 1.8, 2, 2], "autoUv": false, "snapUv": false},
+				"east": {"texture": "#metal", "uv": [1.8, 1.8, 2, 2], "autoUv": false, "snapUv": false},
+				"south": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "autoUv": false, "snapUv": false},
+				"west": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "autoUv": false, "snapUv": false},
+				"up": {"texture": "#metal", "uv": [0, 0, 0.2, 0.2], "autoUv": false, "snapUv": false},
+				"down": {"texture": "#metal", "uv": [0, 1.8, 0.2, 2], "autoUv": false, "snapUv": false}
+			}
+		}
+	],
+	"animations": []
+}

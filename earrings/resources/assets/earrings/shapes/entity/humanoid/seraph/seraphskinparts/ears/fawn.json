@@ -1,0 +1,245 @@
+{
+	"editor": {
+		"backDropShape": "assets/game/shapes/entity/humanoid/seraph",
+		"collapsedPaths": "Root/origin/earR1",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 32,
+	"textureHeight": 76,
+	"textureSizes": {
+		"seraph": [32, 76]
+	},
+	"textures": {
+		"seraph": "entity/humanoid/seraph-naked"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [27, 2, 26.5],
+			"to": [27, 2, 26.5],
+			"rotationOrigin": [27, 2, 26.5],
+			"children": [
+				{
+					"name": "earL",
+					"from": [-0.5, 0.5, 1.9],
+					"to": [-0.5, 0.5, 1.9],
+					"rotationOrigin": [-0.5, 0.5, 1.9],
+					"rotationY": -50,
+					"rotationZ": 10,
+					"children": [
+						{
+							"name": "earAttachL",
+							"from": [1.75, -0.45, 0.1],
+							"to": [1.95, -0.25, 0.3],
+							"rotationOrigin": [1.85, -0.35, 0.2],
+							"uv": [998, 999],
+							"faces": {
+								"north": {"texture": "#seraph", "uv": [998, 999.2813, 998.25, 999.875], "autoUv": false, "snapUv": false}
+							},
+							"rotationZ": -10
+						},
+						{
+							"name": "earL2",
+							"from": [0, -0.5, -0.1],
+							"to": [2, -0.2, 0.3],
+							"rotationOrigin": [0, -0.5, -0.1],
+							"uv": [23, 7.5],
+							"faces": {
+								"east": {"texture": "#seraph", "uv": [23, 8, 23.5, 8.5], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+								"south": {"texture": "#seraph", "uv": [23.5, 8, 25.5, 8.5], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#seraph", "uv": [23, 7.5, 25, 8], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#seraph", "uv": [25, 7.5, 27, 8], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "earL3",
+							"from": [0, 0.2, -0.1],
+							"to": [2, 0.5, 0.3],
+							"rotationOrigin": [0, 0.5, -0.1],
+							"uv": [23, 8.5],
+							"faces": {
+								"east": {"texture": "#seraph", "uv": [23, 9, 23.5, 9.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#seraph", "uv": [23.5, 9, 25.5, 9.5], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+								"up": {"texture": "#seraph", "uv": [23, 8.5, 25, 9], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#seraph", "uv": [25, 8.5, 27, 9], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "tipL1",
+							"from": [1.5, 0, -0.2],
+							"to": [1.5, 0, -0.2],
+							"rotationOrigin": [1.5, 0, -0.2],
+							"rotationZ": -45,
+							"children": [
+								{
+									"name": "tipL2",
+									"from": [0, 0.4, 0.11],
+									"to": [0.7, 0.7, 0.46],
+									"rotationOrigin": [0, 0.4, 0.11],
+									"uv": [26, 8.5],
+									"faces": {
+										"east": {"texture": "#seraph", "uv": [26, 9, 26.5, 9.5], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+										"south": {"texture": "#seraph", "uv": [26.5, 9, 27, 9.5], "autoUv": false, "snapUv": false},
+										"up": {"texture": "#seraph", "uv": [26, 8.5, 26.5, 9], "autoUv": false, "snapUv": false},
+										"down": {"texture": "#seraph", "uv": [26.5, 8.5, 27, 9], "autoUv": false, "snapUv": false}
+									}
+								},
+								{
+									"name": "tipL3",
+									"from": [0.4, 0, 0.11],
+									"to": [0.7, 0.4, 0.46],
+									"rotationOrigin": [0.7, 0, 0.11],
+									"uv": [26.5, 9],
+									"faces": {
+										"east": {"texture": "#seraph", "uv": [26.5, 9, 27, 9.5], "autoUv": false, "snapUv": false},
+										"south": {"texture": "#seraph", "uv": [27, 9, 27.5, 9.5], "autoUv": false, "snapUv": false},
+										"west": {"texture": "#seraph", "uv": [27.5, 9, 28, 9.5], "autoUv": false, "snapUv": false}
+									}
+								},
+								{
+									"name": "tipL1_geo",
+									"from": [0, 0, -0.09],
+									"to": [0.7, 0.7, 0.11],
+									"rotationOrigin": [0, 0, -0.09],
+									"uv": [26.5, 7.5],
+									"faces": {
+										"north": {"texture": "#seraph", "uv": [26.5, 8, 27, 8.5], "autoUv": false, "snapUv": false},
+										"east": {"texture": "#seraph", "uv": [27, 8, 27.5, 8.5], "autoUv": false, "snapUv": false},
+										"south": {"texture": "#seraph", "uv": [27.5, 8, 28, 8.5], "autoUv": false, "snapUv": false},
+										"up": {"texture": "#seraph", "uv": [26.5, 7.5, 27, 8], "autoUv": false, "snapUv": false}
+									}
+								}
+							]
+						},
+						{
+							"name": "earL1_geo",
+							"from": [0, -0.5, -0.3],
+							"to": [2, 0.5, -0.1],
+							"rotationOrigin": [0, -0.5, -0.3],
+							"uv": [23, 6],
+							"faces": {
+								"north": {"texture": "#seraph", "uv": [23, 6.5, 25, 7.5], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+								"east": {"texture": "#seraph", "uv": [25, 6.5, 25.5, 7.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#seraph", "uv": [25.5, 6.5, 27.5, 7.5], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#seraph", "uv": [23, 6, 25, 6.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#seraph", "uv": [25, 6, 27, 6.5], "autoUv": false, "snapUv": false}
+							}
+						}
+					]
+				},
+				{
+					"name": "earR",
+					"from": [-0.5, 0.5, -1.9],
+					"to": [-0.5, 0.5, -1.9],
+					"rotationOrigin": [-0.5, 0.5, -1.9],
+					"rotationY": 50,
+					"rotationZ": 10,
+					"children": [
+						{
+							"name": "earR2",
+							"from": [0, -0.5, -0.3],
+							"to": [2, -0.2, 0.1],
+							"rotationOrigin": [0, -0.5, 0.1],
+							"uv": [23.5, 12],
+							"faces": {
+								"north": {"texture": "#seraph", "uv": [23.5, 12.5, 25.5, 13], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+								"east": {"texture": "#seraph", "uv": [25.5, 12.5, 26, 13], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+								"up": {"texture": "#seraph", "uv": [23.5, 12, 25.5, 12.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#seraph", "uv": [25.5, 12, 27.5, 12.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "earR3",
+							"from": [0, 0.2, -0.3],
+							"to": [2, 0.5, 0.1],
+							"rotationOrigin": [0, 0.5, 0.3],
+							"uv": [23.5, 13],
+							"faces": {
+								"north": {"texture": "#seraph", "uv": [23.5, 13.5, 25.5, 14], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+								"east": {"texture": "#seraph", "uv": [25.5, 13.5, 26, 14], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#seraph", "uv": [23.5, 13, 25.5, 13.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#seraph", "uv": [25.5, 13, 27.5, 13.5], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "tipR1",
+							"from": [1.5, 0, 0.2],
+							"to": [1.5, 0, 0.2],
+							"rotationOrigin": [1.5, 0, 0.2],
+							"rotationZ": -45,
+							"children": [
+								{
+									"name": "tipR2",
+									"from": [0, 0.4, -0.44],
+									"to": [0.7, 0.7, -0.09],
+									"rotationOrigin": [0, 0.4, -0.09],
+									"uv": [26, 13],
+									"faces": {
+										"north": {"texture": "#seraph", "uv": [26, 13.5, 26.5, 14], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+										"east": {"texture": "#seraph", "uv": [26.5, 13.5, 27, 14], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+										"up": {"texture": "#seraph", "uv": [26, 13, 26.5, 13.5], "autoUv": false, "snapUv": false},
+										"down": {"texture": "#seraph", "uv": [26.5, 13, 27, 13.5], "autoUv": false, "snapUv": false}
+									}
+								},
+								{
+									"name": "tipR3",
+									"from": [0.4, 0, -0.44],
+									"to": [0.7, 0.4, -0.09],
+									"rotationOrigin": [0.7, 0, -0.09],
+									"uv": [26.5, 13.5],
+									"faces": {
+										"north": {"texture": "#seraph", "uv": [26.5, 13.5, 27, 14], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+										"east": {"texture": "#seraph", "uv": [27, 13.5, 27.5, 14], "autoUv": false, "snapUv": false},
+										"west": {"texture": "#seraph", "uv": [27.5, 13.5, 28, 14], "autoUv": false, "snapUv": false}
+									}
+								},
+								{
+									"name": "tipR1_geo",
+									"from": [0, 0, -0.09],
+									"to": [0.7, 0.7, 0.11],
+									"rotationOrigin": [0, 0, -0.09],
+									"uv": [26.5, 12],
+									"faces": {
+										"north": {"texture": "#seraph", "uv": [26.5, 12.5, 27, 13], "autoUv": false, "snapUv": false},
+										"east": {"texture": "#seraph", "uv": [27, 12.5, 27.5, 13], "autoUv": false, "snapUv": false},
+										"south": {"texture": "#seraph", "uv": [27.5, 12.5, 28, 13], "autoUv": false, "snapUv": false},
+										"up": {"texture": "#seraph", "uv": [26.5, 12, 27, 12.5], "autoUv": false, "snapUv": false}
+									}
+								}
+							]
+						},
+						{
+							"name": "earR1_geo",
+							"from": [0, -0.5, 0.1],
+							"to": [2, 0.5, 0.3],
+							"rotationOrigin": [0, -0.5, 0.1],
+							"uv": [23.5, 10.5],
+							"faces": {
+								"north": {"texture": "#seraph", "uv": [23.5, 11, 25.5, 12], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+								"east": {"texture": "#seraph", "uv": [25.5, 11, 26, 12], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#seraph", "uv": [26, 11, 28, 12], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#seraph", "uv": [23.5, 10.5, 25.5, 11], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#seraph", "uv": [25.5, 10.5, 27.5, 11], "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "earAttachR",
+							"from": [1.75, -0.45, -0.24],
+							"to": [1.95, -0.25, -0.04],
+							"rotationOrigin": [1.85, -0.35, -0.14],
+							"uv": [998, 999],
+							"faces": {
+								"south": {"texture": "#seraph", "autoUv": false, "snapUv": false}
+							},
+							"rotationZ": -10,
+							"shade": false
+						}
+					]
+				}
+			],
+			"stepParentName": "Head"
+		}
+	],
+	"animations": []
+}

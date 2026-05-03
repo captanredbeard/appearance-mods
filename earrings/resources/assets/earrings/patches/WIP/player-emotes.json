@@ -1,0 +1,19 @@
+[
+  {
+    "enabled": false,
+    "op": "addmerge",
+    "file": "game:entities/humanoid/player.json",
+    "path": "/client/animations",
+    "value": [
+      {
+        "code": "earwag",
+        "animation": "EarWag",
+        "blendMode": "Add",
+        "easeInSpeed": 1,
+        "easeOutSpeed": 2,
+        "animationSpeed": 1
+      }
+    ],
+    "side": "Universal"
+  }
+]

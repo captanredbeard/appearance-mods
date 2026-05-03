@@ -1,0 +1,18 @@
+﻿{
+  "Groups": {
+    "backpack-accessories": {
+      "Text": "Backpack",
+      "HideWhenNoSlotsShown": true,
+      "Priority": 1
+    }
+  },
+  "Slots": {
+    "earring": {
+      "Priority": 0.24,
+      "Disabled": false,
+      "HiddenWhenDisabled": false,
+      "Group": "right",
+      "Icon": "earrings:earrings"
+    }
+  }
+}

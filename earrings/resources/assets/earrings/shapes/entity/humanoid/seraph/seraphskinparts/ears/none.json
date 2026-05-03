@@ -1,0 +1,11 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph",
+		"collapsedPaths": "Root/Cube2,Root/Cube3",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"elements": [
+	],
+	"animations": []
+}
