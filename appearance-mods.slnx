@@ -1,5 +1,7 @@
 <Solution>
   <Project Path="../vsmod_PlayerModelLib/PlayerModelLib.csproj" />
-  <Project Path="earrings/earrings.csproj" />
+  <Project Path="earrings/earrings.csproj">
+    <BuildDependency Project="../vsmod_PlayerModelLib/PlayerModelLib.csproj" />
+  </Project>
   <Project Path="haircuts/haircuts.csproj" Id="c0c2ef7e-8519-4055-80ad-376e5e54e4e6" />
 </Solution>

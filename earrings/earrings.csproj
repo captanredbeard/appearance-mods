@@ -19,7 +19,8 @@
   <!-- Dependencies -->
   <ItemGroup>
     <Dependencies Include="game" Version="*" />
-	<Dependencies Include="playermodellib" Version="1.18.0-pre.6" />
+	<Dependencies Include="playermodellib" Version="1.18.0-pre.5" />
+	<Dependencies Include="playerinventorylib" Version="0.0.8" />
   </ItemGroup>
 
   <!-- Project settings -->
